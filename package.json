@@ -1,0 +1,32 @@
+{
+  "name": "design_barebones",
+  "version": "1.0.0",
+  "description": "My express server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PCMasterRace007/barebones_storage_db.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PCMasterRace007/barebones_storage_db/issues"
+  },
+  "homepage": "https://github.com/PCMasterRace007/barebones_storage_db#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1",
+    "postgres": "^1.0.2"
+  }
+}

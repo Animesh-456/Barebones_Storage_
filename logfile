@@ -1,0 +1,6 @@
+2021-09-20 15:53:23.321 IST [2406] LOG:  starting PostgreSQL 13.1 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.0, 64-bit
+2021-09-20 15:53:23.325 IST [2406] LOG:  listening on IPv6 address "::1", port 5432
+2021-09-20 15:53:23.325 IST [2406] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-09-20 15:53:23.328 IST [2406] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-20 15:53:23.369 IST [2407] LOG:  database system was shut down at 2021-09-07 17:14:32 IST
+2021-09-20 15:53:23.418 IST [2406] LOG:  database system is ready to accept connections

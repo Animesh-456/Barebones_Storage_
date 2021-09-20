@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Cloud</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+  <script src="main.js" type="text/javascript"></script>
+    <!--<img class="wave" src="/design/undraw_going_up_ttm5.svg">-->
+    <!--<div ><h1 class="heading">My Cloud !</h1></div>-->
+
+    <div class="container">
+      <div class="img">
+        <img src="signupUI.svg" />
+      </div>
+      <div class="login-content">
+        <form method="POST" action="/signup">
+          <img src="avatar.svg" />
+          <h2 class="title">Hello there !</h2>
+          <div class="input-div one">
+            <div class="i">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="div">
+              <h5></h5>
+              <input
+                type="text"
+                class="input"
+                name="usrname"
+                placeholder="username.."
+              />
+            </div>
+          </div>
+          <div class="input-div pass">
+            <div class="i">
+              <i class="fas fa-lock"></i>
+            </div>
+            <div class="div">
+              <h5></h5>
+              <input
+                type="password"
+                class="input"
+                name="password"
+                placeholder="Password.."
+              />
+            </div>
+          </div>
+          <input type="submit" class="btn" value="Signup" />
+        </form>
+      </div>
+    </div>
+    <p id="warning"></p>
+  </body>
+</html>
