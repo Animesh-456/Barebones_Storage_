@@ -24,7 +24,7 @@ app.post("/login",  async function (req, res) {
   
     const username = req.body.usrname;
     const password = req.body.password;
-
+  
     if (username != '' && password != '') {
       console.log("Found !");
       const pool = new Pool({
@@ -45,7 +45,7 @@ app.post("/login",  async function (req, res) {
               const hash = res.rows[0].password;
               console.log("The hashed password is: - " + hash);
               bcrypt.compare(password, hash).then(function (result) {
-                console.log(result);
+                //console.log(result);
                 if (result == true) {
                   const accessToken = (req, res)=>{
                     const token = jwt.sign(username, process.env.ACCESS_TOKEN_SECRET);
